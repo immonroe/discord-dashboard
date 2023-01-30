@@ -15,9 +15,13 @@ const SideBar = () => {
     );
 };
 
-const SideBarIcon = ({ icon }) => (
+const SideBarIcon = ({ icon, text = 'tooltip 💡' }) => (
     <div className="sidebar-icon">
       {icon}
+
+      <span class='sidebar-tooltip'>
+        {text}
+      </span>
     </div>
   );
 
