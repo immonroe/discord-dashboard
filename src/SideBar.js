@@ -10,7 +10,7 @@ const SideBar = () => {
             <SideBarIcon icon={<BsPlus size="32" />} />
             <SideBarIcon icon={<BsFillLightningFill size="20" />} />
             <SideBarIcon icon={<FaPoo size="20" />} />
-            {/* <SideBarIcon icon={<BsGearFill size="22" />} /> */}
+            <SideBarIcon icon={<BsGearFill size="22" />} />
         </div>
     );
 };
